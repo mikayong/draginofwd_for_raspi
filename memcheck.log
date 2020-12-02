@@ -1,0 +1,1974 @@
+==1694== Memcheck, a memory error detector
+==1694== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1694== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info
+==1694== Command: fwd/fwd
+==1694== Parent PID: 749
+==1694== 
+==1694== Invalid read of size 8
+==1694==    at 0x4866214: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694==  Address 0x4c519f0 is 0 bytes after a block of size 32 alloc'd
+==1694==    at 0x48476D4: malloc (vg_replace_malloc.c:307)
+==1694==    by 0x48D46B3: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4866210: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48662D4: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48D34B4: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48CA3BC: sqlite3_str_vappendf (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48C9540: sqlite3_str_append (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48C9548: sqlite3_str_append (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4863B6C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864F1C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864F38: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864F78: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864F7C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864F84: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864F8C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864F90: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864F94: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864F98: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864FA0: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864FAC: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48CB250: sqlite3_vsnprintf (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4905D7C: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4906014: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48A2430: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48A2494: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4847670: malloc (vg_replace_malloc.c:307)
+==1694==    by 0x48D46B3: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48A2508: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4866108: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4866158: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4866164: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x486616C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4866178: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x486617C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4866184: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4866188: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4866188: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4863B78: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864A24: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864AA4: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864ABC: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864AC4: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864AC8: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864ACC: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864AD0: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864AD8: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864ADC: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864AE0: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864AEC: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864AF8: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x49056D8: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864F44: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864F4C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4864F50: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4864F54: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864FCC: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864FE4: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864FFC: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4865010: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x486502C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x486503C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4905714: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48650E8: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4865100: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4865118: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x486512C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4865148: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4865158: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4905750: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x489FE80: sqlite3_uri_parameter (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48662DC: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4940E2C: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4897748: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x489774C: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x489EAEC: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x489EC24: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48662E4: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Syscall param stat64(file_name) contains uninitialised byte(s)
+==1694==    at 0x4B42864: __xstat64 (xstat64.c:35)
+==1694==    by 0x48A71FB: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48F6D18: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48F6D3C: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48F6EE8: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48661D0: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x486624C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4866254: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4866260: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4866274: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48661DC: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48F6F00: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48F6F18: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48F6F1C: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48F6F38: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4850D00: __memcpy_chk (vg_replace_strmem.c:1593)
+==1694==    by 0x48F737B: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4850D08: __memcpy_chk (vg_replace_strmem.c:1593)
+==1694==    by 0x48F737B: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4850D10: is_overlap (vg_replace_strmem.c:138)
+==1694==    by 0x4850D10: is_overlap (vg_replace_strmem.c:125)
+==1694==    by 0x4850D10: __memcpy_chk (vg_replace_strmem.c:1593)
+==1694==    by 0x48F737B: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4850D30: __memcpy_chk (vg_replace_strmem.c:1593)
+==1694==    by 0x48F737B: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4850D38: __memcpy_chk (vg_replace_strmem.c:1593)
+==1694==    by 0x48F737B: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4850D4C: __memcpy_chk (vg_replace_strmem.c:1593)
+==1694==    by 0x48F737B: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4850D54: __memcpy_chk (vg_replace_strmem.c:1593)
+==1694==    by 0x48F737B: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4850D58: __memcpy_chk (vg_replace_strmem.c:1593)
+==1694==    by 0x48F737B: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4850D58: __memcpy_chk (vg_replace_strmem.c:1593)
+==1694==    by 0x48F737B: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48F7398: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Syscall param openat(filename) contains uninitialised byte(s)
+==1694==    at 0x49A8D34: open64 (open64.c:48)
+==1694==    by 0x48D2547: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== 
+==1694== More than 100 errors detected.  Subsequent errors
+==1694== will still be recorded, but in less detail than before.
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48A3FA8: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48C3F60: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48C3F78: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864F80: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48C3EEC: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Invalid read of size 8
+==1694==    at 0x48661DC: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694==  Address 0x4c56ab0 is 0 bytes after a block of size 24 alloc'd
+==1694==    at 0x48476D4: malloc (vg_replace_malloc.c:307)
+==1694==    by 0x48D46B3: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864A40: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864A44: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864A48: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864A50: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864A5C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864A68: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4864A70: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864A78: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864A7C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864A80: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864A84: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864A8C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864A90: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864A94: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864A98: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x489EC30: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x489EBA8: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x489EBAC: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x489EBD8: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864E60: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864E8C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864E94: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864EAC: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864EC4: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864ED8: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864EF4: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864F04: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48A4630: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48BBC90: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864A34: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48BBAE0: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4864F84: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4864F94: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4864F98: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48BBC74: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48BBD68: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4864A80: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864AE4: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4864AE4: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4864B00: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48BBD74: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48BBD80: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48BBD18: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48BBD3C: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4864FB4: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48BBCC0: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48D78B4: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48D78C4: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48D7900: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48D7914: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48D78D4: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48D78E8: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48D78F0: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48D78F4: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864AB4: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48A9A74: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48C9FB4: sqlite3_str_vappendf (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864F68: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48650E0: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4865108: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4865120: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x486515C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48D26F0: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48D26FC: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48D2720: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48D2710: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48D274C: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Syscall param unlink(pathname) contains uninitialised byte(s)
+==1694==    at 0x4B45B9C: unlink (syscall-template.S:78)
+==1694==    by 0x48D36EB: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48A6A14: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48A4768: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48C6A5C: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48B4A78: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48B4B08: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48B4B0C: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x492211C: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x49270E4: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x49267C4: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x49267DC: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x49267E8: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4926874: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4926888: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4926854: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4927430: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4902688: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4902278: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4866194: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48661B0: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48FDA4C: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48FDB58: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864F6C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864F70: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4902228: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864D08: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864D34: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4864A84: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4864AD0: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4864AE0: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Syscall param pwrite64(buf) points to uninitialised byte(s)
+==1694==    at 0x49A911C: pwrite64 (pwrite64.c:29)
+==1694==    by 0x48B54AB: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694==  Address 0x4c69c9d is 76,621 bytes inside a block of size 85,128 alloc'd
+==1694==    at 0x48476D4: malloc (vg_replace_malloc.c:307)
+==1694==    by 0x48D46B3: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48B795C: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48B792C: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48B793C: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48B7944: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48B7948: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48B7954: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48B79AC: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48B79D0: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48B79DC: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48B7968: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x486505C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4865074: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x486508C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48650A0: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48650BC: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48650C8: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48AAF88: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48AB938: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48AB948: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4912D8C: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4912990: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4912BCC: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4913ABC: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4912F38: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4912F4C: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48A6900: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4898558: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4898578: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48985B8: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48A6B8C: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48A6A5C: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4913F00: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48AAF74: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48BBBD4: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48BA210: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48BA194: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48BA1BC: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48BA1C4: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48BBAE4: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48BBC38: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48BBC44: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48BBC4C: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4864F8C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4864F90: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48BBD6C: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4864FB0: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48BBD78: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48BBBB4: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48650D0: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48C934C: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48C9500: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864BB0: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864BD4: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864BDC: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864BE4: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864BFC: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864C14: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864C28: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864C44: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864C54: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48A4BA4: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48A4BB8: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48A4BC4: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4918EB4: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48BBBF4: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4864F7C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48BBC94: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48BBCB4: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48BBBC4: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48BBBEC: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4866248: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x1360C: json_object_nget_value (parson.c:363)
+==1694==    by 0x16443: json_object_get_value (parson.c:941)
+==1694==    by 0x165BB: json_object_dotget_value (parson.c:967)
+==1694==    by 0x16603: json_object_dotget_value (parson.c:969)
+==1694==    by 0x30A5B: parse_SX130x_configuration (gwcfg.c:180)
+==1694==    by 0x35727: parsecfg (gwcfg.c:1100)
+==1694==    by 0x3713B: main (fwd.c:564)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x484C228: strncmp (vg_replace_strmem.c:647)
+==1694==    by 0x13637: json_object_nget_value (parson.c:365)
+==1694==    by 0x16443: json_object_get_value (parson.c:941)
+==1694==    by 0x165BB: json_object_dotget_value (parson.c:967)
+==1694==    by 0x16603: json_object_dotget_value (parson.c:969)
+==1694==    by 0x30A5B: parse_SX130x_configuration (gwcfg.c:180)
+==1694==    by 0x35727: parsecfg (gwcfg.c:1100)
+==1694==    by 0x3713B: main (fwd.c:564)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x484C25C: strncmp (vg_replace_strmem.c:647)
+==1694==    by 0x13637: json_object_nget_value (parson.c:365)
+==1694==    by 0x16443: json_object_get_value (parson.c:941)
+==1694==    by 0x165BB: json_object_dotget_value (parson.c:967)
+==1694==    by 0x16603: json_object_dotget_value (parson.c:969)
+==1694==    by 0x30A5B: parse_SX130x_configuration (gwcfg.c:180)
+==1694==    by 0x35727: parsecfg (gwcfg.c:1100)
+==1694==    by 0x3713B: main (fwd.c:564)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x287FC: lgw_db_put (db.c:249)
+==1694==    by 0x30B87: parse_SX130x_configuration (gwcfg.c:194)
+==1694==    by 0x35727: parsecfg (gwcfg.c:1100)
+==1694==    by 0x3713B: main (fwd.c:564)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4898FFC: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x489900C: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4899040: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48990D4: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4928E90: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4901300: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4901308: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48D23C4: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48D23E0: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48D23EC: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48D2404: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48D2414: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48634E4: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48634E8: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48634FC: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4863508: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4863518: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Syscall param openat(filename) contains uninitialised byte(s)
+==1694==    at 0x49A8DA0: open64 (open64.c:48)
+==1694==    by 0x48D2547: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Syscall param pwrite64(buf) points to uninitialised byte(s)
+==1694==    at 0x49A915C: __libc_pwrite64 (pwrite64.c:29)
+==1694==    by 0x49A915C: pwrite64 (pwrite64.c:27)
+==1694==    by 0x48B54AB: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694==  Address 0x4c68bfd is 72,365 bytes inside a block of size 85,128 alloc'd
+==1694==    at 0x48476D4: malloc (vg_replace_malloc.c:307)
+==1694==    by 0x48D46B3: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48FDB04: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864D3C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864D54: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864D6C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864D80: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864D9C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864DA8: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x486619C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4863530: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x48637F8: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4863A18: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864C6C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864C78: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864C84: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4864C8C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864C9C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864CB0: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864CC8: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864CDC: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4864F80: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4864FA8: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4863A00: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x486367C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4864A94: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4864A98: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4864AF4: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x404DC: lgw_sx1302_connect (loragw_reg_sx1302.c:1152)
+==1694==    by 0x3EC9F: lgw_sx1302_start (loragw_hal_sx1302.c:531)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x41030: sx1250_calibrate (loragw_sx1250.c:191)
+==1694==    by 0x42DE3: sx1302_radio_calibrate (loragw_sx1302.c:425)
+==1694==    by 0x3ECFF: lgw_sx1302_start (loragw_hal_sx1302.c:538)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x41100: sx1250_setup (loragw_sx1250.c:213)
+==1694==    by 0x3EE3F: lgw_sx1302_start (loragw_hal_sx1302.c:550)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4119C: sx1250_setup (loragw_sx1250.c:231)
+==1694==    by 0x3EE3F: lgw_sx1302_start (loragw_hal_sx1302.c:550)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x486350C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4863520: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48635B8: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4863604: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4863624: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48636E0: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4475C: sx1302_agc_load_firmware (loragw_sx1302.c:977)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4ABBF0C: _itoa_word (_itoa.c:180)
+==1694==    by 0x4AC0727: vfprintf (vfprintf.c:1637)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4ABBF18: _itoa_word (_itoa.c:180)
+==1694==    by 0x4AC0727: vfprintf (vfprintf.c:1637)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4ABF8FC: vfprintf (vfprintf.c:1637)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4ABFA00: vfprintf (vfprintf.c:1637)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4ABFA7C: vfprintf (vfprintf.c:1637)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4ADBD70: _IO_padn (iopadn.c:54)
+==1694==    by 0x4AC09EF: vfprintf (vfprintf.c:1637)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4ADBDEC: _IO_padn (iopadn.c:62)
+==1694==    by 0x4AC09EF: vfprintf (vfprintf.c:1637)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4AE9CA8: _IO_default_xsputn (genops.c:374)
+==1694==    by 0x4ADBE27: _IO_padn (iopadn.c:64)
+==1694==    by 0x4AC09EF: vfprintf (vfprintf.c:1637)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4AE9D34: _IO_default_xsputn (genops.c:384)
+==1694==    by 0x4AE9D34: _IO_default_xsputn (genops.c:370)
+==1694==    by 0x4ADBE27: _IO_padn (iopadn.c:64)
+==1694==    by 0x4AC09EF: vfprintf (vfprintf.c:1637)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4AE9CD4: _IO_default_xsputn (genops.c:389)
+==1694==    by 0x4AE9CD4: _IO_default_xsputn (genops.c:370)
+==1694==    by 0x4ADBE27: _IO_padn (iopadn.c:64)
+==1694==    by 0x4AC09EF: vfprintf (vfprintf.c:1637)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4AE9D78: _IO_default_xsputn (genops.c:393)
+==1694==    by 0x4AE9D78: _IO_default_xsputn (genops.c:370)
+==1694==    by 0x4ADBE27: _IO_padn (iopadn.c:64)
+==1694==    by 0x4AC09EF: vfprintf (vfprintf.c:1637)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4AE9CE0: _IO_default_xsputn (genops.c:399)
+==1694==    by 0x4AE9CE0: _IO_default_xsputn (genops.c:370)
+==1694==    by 0x4ADBE27: _IO_padn (iopadn.c:64)
+==1694==    by 0x4AC09EF: vfprintf (vfprintf.c:1637)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4AC09F4: vfprintf (vfprintf.c:1637)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4AC0A10: vfprintf (vfprintf.c:1637)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4ABFA84: vfprintf (vfprintf.c:1637)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4AE9D1C: _IO_default_xsputn (genops.c:379)
+==1694==    by 0x4AE9D1C: _IO_default_xsputn (genops.c:370)
+==1694==    by 0x4ABFAB3: vfprintf (vfprintf.c:1637)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4AE9D34: _IO_default_xsputn (genops.c:384)
+==1694==    by 0x4AE9D34: _IO_default_xsputn (genops.c:370)
+==1694==    by 0x4ABFAB3: vfprintf (vfprintf.c:1637)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4AE9CD4: _IO_default_xsputn (genops.c:389)
+==1694==    by 0x4AE9CD4: _IO_default_xsputn (genops.c:370)
+==1694==    by 0x4ABFAB3: vfprintf (vfprintf.c:1637)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4AE9D74: _IO_default_xsputn (genops.c:394)
+==1694==    by 0x4AE9D74: _IO_default_xsputn (genops.c:370)
+==1694==    by 0x4ABFAB3: vfprintf (vfprintf.c:1637)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4AE9D78: _IO_default_xsputn (genops.c:393)
+==1694==    by 0x4AE9D78: _IO_default_xsputn (genops.c:370)
+==1694==    by 0x4ABFAB3: vfprintf (vfprintf.c:1637)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4AE9CE0: _IO_default_xsputn (genops.c:399)
+==1694==    by 0x4AE9CE0: _IO_default_xsputn (genops.c:370)
+==1694==    by 0x4ABFAB3: vfprintf (vfprintf.c:1637)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4ABFAC8: vfprintf (vfprintf.c:1637)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4ABF654: vfprintf (vfprintf.c:1669)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4AE9D1C: _IO_default_xsputn (genops.c:379)
+==1694==    by 0x4AE9D1C: _IO_default_xsputn (genops.c:370)
+==1694==    by 0x4ABF683: vfprintf (vfprintf.c:1669)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4AE9D34: _IO_default_xsputn (genops.c:384)
+==1694==    by 0x4AE9D34: _IO_default_xsputn (genops.c:370)
+==1694==    by 0x4ABF683: vfprintf (vfprintf.c:1669)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4AE9CD4: _IO_default_xsputn (genops.c:389)
+==1694==    by 0x4AE9CD4: _IO_default_xsputn (genops.c:370)
+==1694==    by 0x4ABF683: vfprintf (vfprintf.c:1669)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4AE9D74: _IO_default_xsputn (genops.c:394)
+==1694==    by 0x4AE9D74: _IO_default_xsputn (genops.c:370)
+==1694==    by 0x4ABF683: vfprintf (vfprintf.c:1669)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4AE9D78: _IO_default_xsputn (genops.c:393)
+==1694==    by 0x4AE9D78: _IO_default_xsputn (genops.c:370)
+==1694==    by 0x4ABF683: vfprintf (vfprintf.c:1669)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4AE9CE0: _IO_default_xsputn (genops.c:399)
+==1694==    by 0x4AE9CE0: _IO_default_xsputn (genops.c:370)
+==1694==    by 0x4ABF683: vfprintf (vfprintf.c:1669)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4ABF6A0: vfprintf (vfprintf.c:1669)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4AC18DC: buffered_vfprintf (vfprintf.c:2341)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4AE7DC0: _IO_file_xsputn@@GLIBC_2.4 (fileops.c:1211)
+==1694==    by 0x4AC1917: buffered_vfprintf (vfprintf.c:2343)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4AE7E58: _IO_new_file_xsputn (fileops.c:1260)
+==1694==    by 0x4AE7E58: _IO_file_xsputn@@GLIBC_2.4 (fileops.c:1204)
+==1694==    by 0x4AC1917: buffered_vfprintf (vfprintf.c:2343)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4AE77A4: _IO_file_write@@GLIBC_2.4 (fileops.c:1183)
+==1694==    by 0x4AE695F: new_do_write (fileops.c:456)
+==1694==    by 0x4AE7F13: _IO_new_file_xsputn (fileops.c:1262)
+==1694==    by 0x4AE7F13: _IO_file_xsputn@@GLIBC_2.4 (fileops.c:1204)
+==1694==    by 0x4AC1917: buffered_vfprintf (vfprintf.c:2343)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Syscall param write(count) contains uninitialised byte(s)
+==1694==    at 0x4B43980: __libc_write (write.c:26)
+==1694==    by 0x4B43980: write (write.c:24)
+==1694==    by 0x4AE77B7: _IO_file_write@@GLIBC_2.4 (fileops.c:1188)
+==1694==    by 0x4AE695F: new_do_write (fileops.c:456)
+==1694==    by 0x4AE7F13: _IO_new_file_xsputn (fileops.c:1262)
+==1694==    by 0x4AE7F13: _IO_file_xsputn@@GLIBC_2.4 (fileops.c:1204)
+==1694==    by 0x4AC1917: buffered_vfprintf (vfprintf.c:2343)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4AE77CC: _IO_file_write@@GLIBC_2.4 (fileops.c:1183)
+==1694==    by 0x4AE695F: new_do_write (fileops.c:456)
+==1694==    by 0x4AE7F13: _IO_new_file_xsputn (fileops.c:1262)
+==1694==    by 0x4AE7F13: _IO_file_xsputn@@GLIBC_2.4 (fileops.c:1204)
+==1694==    by 0x4AC1917: buffered_vfprintf (vfprintf.c:2343)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4AE7F1C: _IO_new_file_xsputn (fileops.c:1264)
+==1694==    by 0x4AE7F1C: _IO_file_xsputn@@GLIBC_2.4 (fileops.c:1204)
+==1694==    by 0x4AC1917: buffered_vfprintf (vfprintf.c:2343)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4AE7E60: _IO_new_file_xsputn (fileops.c:1271)
+==1694==    by 0x4AE7E60: _IO_file_xsputn@@GLIBC_2.4 (fileops.c:1204)
+==1694==    by 0x4AC1917: buffered_vfprintf (vfprintf.c:2343)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x447BF: sx1302_agc_load_firmware (loragw_sx1302.c:987)
+==1694==    by 0x3F0B3: lgw_sx1302_start (loragw_hal_sx1302.c:607)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x448A4: sx1302_agc_wait_status (loragw_sx1302.c:1016)
+==1694==    by 0x44A93: sx1302_agc_start (loragw_sx1302.c:1077)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x44AB0: sx1302_agc_start (loragw_sx1302.c:1080)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4ABBF6C: _itoa_word (_itoa.c:179)
+==1694==    by 0x4AC0727: vfprintf (vfprintf.c:1637)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x44AF3: sx1302_agc_start (loragw_sx1302.c:1084)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4ABBF74: _itoa_word (_itoa.c:179)
+==1694==    by 0x4AC0727: vfprintf (vfprintf.c:1637)
+==1694==    by 0x4AC184B: buffered_vfprintf (vfprintf.c:2322)
+==1694==    by 0x4ABF457: vfprintf (vfprintf.c:1296)
+==1694==    by 0x4AC6403: fprintf (fprintf.c:32)
+==1694==    by 0x44AF3: sx1302_agc_start (loragw_sx1302.c:1084)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x448A4: sx1302_agc_wait_status (loragw_sx1302.c:1016)
+==1694==    by 0x44B5B: sx1302_agc_start (loragw_sx1302.c:1098)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x44B78: sx1302_agc_start (loragw_sx1302.c:1102)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x44BB0: sx1302_agc_start (loragw_sx1302.c:1109)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x44BE8: sx1302_agc_start (loragw_sx1302.c:1116)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x448A4: sx1302_agc_wait_status (loragw_sx1302.c:1016)
+==1694==    by 0x44C73: sx1302_agc_start (loragw_sx1302.c:1134)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x44C90: sx1302_agc_start (loragw_sx1302.c:1138)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x44CC8: sx1302_agc_start (loragw_sx1302.c:1145)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x44D00: sx1302_agc_start (loragw_sx1302.c:1152)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x448A4: sx1302_agc_wait_status (loragw_sx1302.c:1016)
+==1694==    by 0x44DBF: sx1302_agc_start (loragw_sx1302.c:1170)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x44DDC: sx1302_agc_start (loragw_sx1302.c:1174)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x44E24: sx1302_agc_start (loragw_sx1302.c:1179)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x448A4: sx1302_agc_wait_status (loragw_sx1302.c:1016)
+==1694==    by 0x44EA3: sx1302_agc_start (loragw_sx1302.c:1194)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x44EC0: sx1302_agc_start (loragw_sx1302.c:1198)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x44F08: sx1302_agc_start (loragw_sx1302.c:1203)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x448A4: sx1302_agc_wait_status (loragw_sx1302.c:1016)
+==1694==    by 0x44F87: sx1302_agc_start (loragw_sx1302.c:1218)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x44FA4: sx1302_agc_start (loragw_sx1302.c:1222)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x44FEC: sx1302_agc_start (loragw_sx1302.c:1227)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x448A4: sx1302_agc_wait_status (loragw_sx1302.c:1016)
+==1694==    by 0x4507B: sx1302_agc_start (loragw_sx1302.c:1243)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x45098: sx1302_agc_start (loragw_sx1302.c:1247)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x450E0: sx1302_agc_start (loragw_sx1302.c:1252)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x45128: sx1302_agc_start (loragw_sx1302.c:1257)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x448A4: sx1302_agc_wait_status (loragw_sx1302.c:1016)
+==1694==    by 0x451A7: sx1302_agc_start (loragw_sx1302.c:1272)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x451C4: sx1302_agc_start (loragw_sx1302.c:1276)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4520C: sx1302_agc_start (loragw_sx1302.c:1281)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x448A4: sx1302_agc_wait_status (loragw_sx1302.c:1016)
+==1694==    by 0x4528B: sx1302_agc_start (loragw_sx1302.c:1296)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x452A8: sx1302_agc_start (loragw_sx1302.c:1300)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x452F0: sx1302_agc_start (loragw_sx1302.c:1305)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x448A4: sx1302_agc_wait_status (loragw_sx1302.c:1016)
+==1694==    by 0x4538B: sx1302_agc_start (loragw_sx1302.c:1322)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x453A8: sx1302_agc_start (loragw_sx1302.c:1326)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x453F0: sx1302_agc_start (loragw_sx1302.c:1331)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x45438: sx1302_agc_start (loragw_sx1302.c:1336)
+==1694==    by 0x3F173: lgw_sx1302_start (loragw_hal_sx1302.c:620)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48638E0: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4863954: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4863974: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4863A64: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x45690: sx1302_arb_load_firmware (loragw_sx1302.c:1382)
+==1694==    by 0x3F1B7: lgw_sx1302_start (loragw_hal_sx1302.c:624)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x457F4: sx1302_arb_wait_status (loragw_sx1302.c:1421)
+==1694==    by 0x45CCB: sx1302_arb_start (loragw_sx1302.c:1544)
+==1694==    by 0x3F1D3: lgw_sx1302_start (loragw_hal_sx1302.c:627)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x45CE8: sx1302_arb_start (loragw_sx1302.c:1548)
+==1694==    by 0x3F1D3: lgw_sx1302_start (loragw_hal_sx1302.c:627)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x457F4: sx1302_arb_wait_status (loragw_sx1302.c:1421)
+==1694==    by 0x45D63: sx1302_arb_start (loragw_sx1302.c:1567)
+==1694==    by 0x3F1D3: lgw_sx1302_start (loragw_hal_sx1302.c:627)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694== 
+==1694== Syscall param ioctl(I2C_RDWR).msgs points to uninitialised byte(s)
+==1694==    at 0x4B4D51C: ioctl (syscall-template.S:78)
+==1694==    by 0x562F7: i2c_linuxdev_read (loragw_i2c.c:108)
+==1694==    by 0x4B3CB: stts751_configure (loragw_stts751.c:96)
+==1694==    by 0x3F28B: lgw_sx1302_start (loragw_hal_sx1302.c:676)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694==  Address 0x7dc193ae is on thread 1's stack
+==1694==  in frame #1, created by i2c_linuxdev_read (loragw_i2c.c:88)
+==1694== 
+==1694== Syscall param ioctl(I2C_RDWR).msgs points to uninitialised byte(s)
+==1694==    at 0x4B4D51C: ioctl (syscall-template.S:78)
+==1694==    by 0x5641F: i2c_linuxdev_write (loragw_i2c.c:134)
+==1694==    by 0x4B5DF: stts751_configure (loragw_stts751.c:135)
+==1694==    by 0x3F31B: lgw_sx1302_start (loragw_hal_sx1302.c:683)
+==1694==    by 0x37453: main (fwd.c:605)
+==1694==  Address 0x7dc193be is on thread 1's stack
+==1694==  in frame #1, created by i2c_linuxdev_write (loragw_i2c.c:118)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48FAAC0: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48FB8F0: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Thread 3:
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x425AC: sx1302_update (loragw_sx1302.c:248)
+==1694==    by 0x3F5FB: lgw_sx1302_receive (loragw_hal_sx1302.c:736)
+==1694==    by 0x37F8B: thread_up (fwd.c:765)
+==1694==    by 0x499D493: start_thread (pthread_create.c:486)
+==1694==    by 0x4B55577: ??? (clone.S:73)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x425E0: sx1302_update (loragw_sx1302.c:253)
+==1694==    by 0x3F5FB: lgw_sx1302_receive (loragw_hal_sx1302.c:736)
+==1694==    by 0x37F8B: thread_up (fwd.c:765)
+==1694==    by 0x499D493: start_thread (pthread_create.c:486)
+==1694==    by 0x4B55577: ??? (clone.S:73)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4BA3C: timestamp_counter_get (loragw_sx1302_timestamp.c:122)
+==1694==    by 0x4260F: sx1302_update (loragw_sx1302.c:259)
+==1694==    by 0x3F5FB: lgw_sx1302_receive (loragw_hal_sx1302.c:736)
+==1694==    by 0x37F8B: thread_up (fwd.c:765)
+==1694==    by 0x499D493: start_thread (pthread_create.c:486)
+==1694==    by 0x4B55577: ??? (clone.S:73)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4B924: timestamp_counter_update (loragw_sx1302_timestamp.c:85)
+==1694==    by 0x4BADB: timestamp_counter_get (loragw_sx1302_timestamp.c:138)
+==1694==    by 0x4260F: sx1302_update (loragw_sx1302.c:259)
+==1694==    by 0x3F5FB: lgw_sx1302_receive (loragw_hal_sx1302.c:736)
+==1694==    by 0x37F8B: thread_up (fwd.c:765)
+==1694==    by 0x499D493: start_thread (pthread_create.c:486)
+==1694==    by 0x4B55577: ??? (clone.S:73)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4BA3C: timestamp_counter_get (loragw_sx1302_timestamp.c:122)
+==1694==    by 0x42623: sx1302_update (loragw_sx1302.c:260)
+==1694==    by 0x3F5FB: lgw_sx1302_receive (loragw_hal_sx1302.c:736)
+==1694==    by 0x37F8B: thread_up (fwd.c:765)
+==1694==    by 0x499D493: start_thread (pthread_create.c:486)
+==1694==    by 0x4B55577: ??? (clone.S:73)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4C3E4: rx_buffer_fetch (loragw_sx1302_rx.c:148)
+==1694==    by 0x45E1F: sx1302_fetch (loragw_sx1302.c:1589)
+==1694==    by 0x3F61F: lgw_sx1302_receive (loragw_hal_sx1302.c:742)
+==1694==    by 0x37F8B: thread_up (fwd.c:765)
+==1694==    by 0x499D493: start_thread (pthread_create.c:486)
+==1694==    by 0x4B55577: ??? (clone.S:73)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4C438: rx_buffer_fetch (loragw_sx1302_rx.c:155)
+==1694==    by 0x45E1F: sx1302_fetch (loragw_sx1302.c:1589)
+==1694==    by 0x3F61F: lgw_sx1302_receive (loragw_hal_sx1302.c:742)
+==1694==    by 0x37F8B: thread_up (fwd.c:765)
+==1694==    by 0x499D493: start_thread (pthread_create.c:486)
+==1694==    by 0x4B55577: ??? (clone.S:73)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4C680: rx_buffer_fetch (loragw_sx1302_rx.c:179)
+==1694==    by 0x45E1F: sx1302_fetch (loragw_sx1302.c:1589)
+==1694==    by 0x3F61F: lgw_sx1302_receive (loragw_hal_sx1302.c:742)
+==1694==    by 0x37F8B: thread_up (fwd.c:765)
+==1694==    by 0x499D493: start_thread (pthread_create.c:486)
+==1694==    by 0x4B55577: ??? (clone.S:73)
+==1694== 
+==1694== Thread 1:
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4863B24: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x48D244C: ??? (in /usr/lib/arm-linux-gnueabihf/libsqlite3.so.0.8.6)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864DC0: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864DCC: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4864DD4: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864DD8: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864DF4: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864E08: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864E20: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864E34: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864B10: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864B1C: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x4864B24: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864B28: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864B44: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864B58: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864B70: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4864B84: ??? (in /usr/lib/arm-linux-gnueabihf/libarmmem-v7l.so)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x590BF24: parse_line (files-hosts.c:51)
+==1694==    by 0x590BF24: internal_getent (files-XXX.c:182)
+==1694==    by 0x590CEAB: _nss_files_gethostbyname3_r (files-hosts.c:352)
+==1694==    by 0x590D053: _nss_files_gethostbyname2_r (files-hosts.c:389)
+==1694==    by 0x4B6887F: gethostbyname2_r@@GLIBC_2.4 (getXXbyYY_r.c:315)
+==1694==    by 0x4B3C5CF: gaih_inet.constprop.6 (getaddrinfo.c:575)
+==1694==    by 0x4B3CD4B: getaddrinfo (getaddrinfo.c:2265)
+==1694==    by 0x216E3: init_sock (service.c:64)
+==1694==    by 0x1C997: semtech_start (semtech_serv.c:59)
+==1694==    by 0x21B47: service_start (service.c:165)
+==1694==    by 0x37C5B: main (fwd.c:670)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x590BF40: parse_list (files-parse.c:264)
+==1694==    by 0x590BF40: parse_line (files-hosts.c:51)
+==1694==    by 0x590BF40: internal_getent (files-XXX.c:182)
+==1694==    by 0x590CEAB: _nss_files_gethostbyname3_r (files-hosts.c:352)
+==1694==    by 0x590D053: _nss_files_gethostbyname2_r (files-hosts.c:389)
+==1694==    by 0x4B6887F: gethostbyname2_r@@GLIBC_2.4 (getXXbyYY_r.c:315)
+==1694==    by 0x4B3C5CF: gaih_inet.constprop.6 (getaddrinfo.c:575)
+==1694==    by 0x4B3CD4B: getaddrinfo (getaddrinfo.c:2265)
+==1694==    by 0x216E3: init_sock (service.c:64)
+==1694==    by 0x1C997: semtech_start (semtech_serv.c:59)
+==1694==    by 0x21B47: service_start (service.c:165)
+==1694==    by 0x37C5B: main (fwd.c:670)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x590C0F8: parse_list (files-parse.c:308)
+==1694==    by 0x590C0F8: parse_line (files-hosts.c:51)
+==1694==    by 0x590C0F8: internal_getent (files-XXX.c:182)
+==1694==    by 0x590CEAB: _nss_files_gethostbyname3_r (files-hosts.c:352)
+==1694==    by 0x590D053: _nss_files_gethostbyname2_r (files-hosts.c:389)
+==1694==    by 0x4B6887F: gethostbyname2_r@@GLIBC_2.4 (getXXbyYY_r.c:315)
+==1694==    by 0x4B3C5CF: gaih_inet.constprop.6 (getaddrinfo.c:575)
+==1694==    by 0x4B3CD4B: getaddrinfo (getaddrinfo.c:2265)
+==1694==    by 0x216E3: init_sock (service.c:64)
+==1694==    by 0x1C997: semtech_start (semtech_serv.c:59)
+==1694==    by 0x21B47: service_start (service.c:165)
+==1694==    by 0x37C5B: main (fwd.c:670)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x590C0FC: parse_line (files-hosts.c:51)
+==1694==    by 0x590C0FC: internal_getent (files-XXX.c:182)
+==1694==    by 0x590CEAB: _nss_files_gethostbyname3_r (files-hosts.c:352)
+==1694==    by 0x590D053: _nss_files_gethostbyname2_r (files-hosts.c:389)
+==1694==    by 0x4B6887F: gethostbyname2_r@@GLIBC_2.4 (getXXbyYY_r.c:315)
+==1694==    by 0x4B3C5CF: gaih_inet.constprop.6 (getaddrinfo.c:575)
+==1694==    by 0x4B3CD4B: getaddrinfo (getaddrinfo.c:2265)
+==1694==    by 0x216E3: init_sock (service.c:64)
+==1694==    by 0x1C997: semtech_start (semtech_serv.c:59)
+==1694==    by 0x21B47: service_start (service.c:165)
+==1694==    by 0x37C5B: main (fwd.c:670)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x590CED0: _nss_files_gethostbyname3_r (files-hosts.c:356)
+==1694==    by 0x590D053: _nss_files_gethostbyname2_r (files-hosts.c:389)
+==1694==    by 0x4B6887F: gethostbyname2_r@@GLIBC_2.4 (getXXbyYY_r.c:315)
+==1694==    by 0x4B3C5CF: gaih_inet.constprop.6 (getaddrinfo.c:575)
+==1694==    by 0x4B3CD4B: getaddrinfo (getaddrinfo.c:2265)
+==1694==    by 0x216E3: init_sock (service.c:64)
+==1694==    by 0x1C997: semtech_start (semtech_serv.c:59)
+==1694==    by 0x21B47: service_start (service.c:165)
+==1694==    by 0x37C5B: main (fwd.c:670)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x590C0BC: parse_line (files-hosts.c:51)
+==1694==    by 0x590C0BC: internal_getent (files-XXX.c:182)
+==1694==    by 0x590CEAB: _nss_files_gethostbyname3_r (files-hosts.c:352)
+==1694==    by 0x590D053: _nss_files_gethostbyname2_r (files-hosts.c:389)
+==1694==    by 0x4B6887F: gethostbyname2_r@@GLIBC_2.4 (getXXbyYY_r.c:315)
+==1694==    by 0x4B3C5CF: gaih_inet.constprop.6 (getaddrinfo.c:575)
+==1694==    by 0x4B3CD4B: getaddrinfo (getaddrinfo.c:2265)
+==1694==    by 0x216E3: init_sock (service.c:64)
+==1694==    by 0x1C997: semtech_start (semtech_serv.c:59)
+==1694==    by 0x21B47: service_start (service.c:165)
+==1694==    by 0x37C5B: main (fwd.c:670)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x590BFB8: parse_list (files-parse.c:292)
+==1694==    by 0x590BFB8: parse_line (files-hosts.c:51)
+==1694==    by 0x590BFB8: internal_getent (files-XXX.c:182)
+==1694==    by 0x590CEAB: _nss_files_gethostbyname3_r (files-hosts.c:352)
+==1694==    by 0x590D053: _nss_files_gethostbyname2_r (files-hosts.c:389)
+==1694==    by 0x4B6887F: gethostbyname2_r@@GLIBC_2.4 (getXXbyYY_r.c:315)
+==1694==    by 0x4B3C5CF: gaih_inet.constprop.6 (getaddrinfo.c:575)
+==1694==    by 0x4B3CD4B: getaddrinfo (getaddrinfo.c:2265)
+==1694==    by 0x216E3: init_sock (service.c:64)
+==1694==    by 0x1C997: semtech_start (semtech_serv.c:59)
+==1694==    by 0x21B47: service_start (service.c:165)
+==1694==    by 0x37C5B: main (fwd.c:670)
+==1694== 
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x590BFE0: parse_list (files-parse.c:264)
+==1694==    by 0x590BFE0: parse_line (files-hosts.c:51)
+==1694==    by 0x590BFE0: internal_getent (files-XXX.c:182)
+==1694==    by 0x590CEAB: _nss_files_gethostbyname3_r (files-hosts.c:352)
+==1694==    by 0x590D053: _nss_files_gethostbyname2_r (files-hosts.c:389)
+==1694==    by 0x4B6887F: gethostbyname2_r@@GLIBC_2.4 (getXXbyYY_r.c:315)
+==1694==    by 0x4B3C5CF: gaih_inet.constprop.6 (getaddrinfo.c:575)
+==1694==    by 0x4B3CD4B: getaddrinfo (getaddrinfo.c:2265)
+==1694==    by 0x216E3: init_sock (service.c:64)
+==1694==    by 0x1C997: semtech_start (semtech_serv.c:59)
+==1694==    by 0x21B47: service_start (service.c:165)
+==1694==    by 0x37C5B: main (fwd.c:670)
+==1694== 
+==1694== Use of uninitialised value of size 4
+==1694==    at 0x590CEE0: _nss_files_gethostbyname3_r (files-hosts.c:356)
+==1694==    by 0x590D053: _nss_files_gethostbyname2_r (files-hosts.c:389)
+==1694==    by 0x4B6887F: gethostbyname2_r@@GLIBC_2.4 (getXXbyYY_r.c:315)
+==1694==    by 0x4B3C5CF: gaih_inet.constprop.6 (getaddrinfo.c:575)
+==1694==    by 0x4B3CD4B: getaddrinfo (getaddrinfo.c:2265)
+==1694==    by 0x216E3: init_sock (service.c:64)
+==1694==    by 0x1C997: semtech_start (semtech_serv.c:59)
+==1694==    by 0x21B47: service_start (service.c:165)
+==1694==    by 0x37C5B: main (fwd.c:670)
+==1694== 
+==1694== Thread 4:
+==1694== Conditional jump or move depends on uninitialised value(s)
+==1694==    at 0x4BA3C: timestamp_counter_get (loragw_sx1302_timestamp.c:122)
+==1694==    by 0x445C3: sx1302_timestamp_counter (loragw_sx1302.c:933)
+==1694==    by 0x40297: lgw_get_sx1302_instcnt (loragw_hal_sx1302.c:916)
+==1694==    by 0x386C3: thread_jit (fwd.c:862)
+==1694==    by 0x499D493: start_thread (pthread_create.c:486)
+==1694==    by 0x4B55577: ??? (clone.S:73)
+==1694== 

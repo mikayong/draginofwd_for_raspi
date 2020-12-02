@@ -1,5 +1,7 @@
 # Prerequisites
 *.d
+tags
+cscope*
 
 # Object files
 *.o
